@@ -10,10 +10,14 @@ Este proyecto desarrolla un motor de búsqueda de imágenes de moda completament
 - **Verificación Visual:** Integración de matplotlib dentro del Notebook para la confirmación visual de la recuperación de imágenes similares.
 
 ## Conjunto de Datos
-El conjunto de datos incluye imágenes de productos de alta resolución tomadas profesionalmente, cada una identificada por un ID único. Los metadatos de cada producto están disponibles en `styles.csv`, con imágenes almacenadas como `images/{product_id}.jpg`.
+Debido al gran tamaño del conjunto de datos (25GB), no está incluido en el repositorio. Para utilizar este proyecto correctamente, deberás descargar el conjunto de datos y colocarlo en la estructura del proyecto.
 
-- **Fuente:** [Conjunto de Imágenes de Productos de Moda en Kaggle](https://www.kaggle.com/paramaggarwal/fashion-product-images-dataset)
-- **Contenido:** Imágenes de productos de alta resolución con metadatos asociados que describen las características del producto.
+### Descarga e Instalación del Conjunto de Datos
+1. Descarga el conjunto de datos desde [Fashion Product Images Dataset on Kaggle](https://www.kaggle.com/paramaggarwal/fashion-product-images-dataset).
+2. Extrae el archivo descargado en la carpeta `data` en la raíz de este proyecto. Si la carpeta no existe, créala.
+   ```bash
+   mkdir -p data
+   unzip fashion-product-images-large.zip -d data
 
 ## Prerrequisitos
 - Jupyter Notebook
