@@ -1,6 +1,3 @@
-Aquí tienes un ejemplo de un README profesional y completo para tu proyecto en español, siguiendo las buenas prácticas de documentación:
-
-```markdown
 # Motor de Búsqueda de Imágenes de Moda
 
 ## Descripción General
