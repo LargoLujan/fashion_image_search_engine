@@ -1,13 +1,13 @@
 # Motor de Búsqueda de Imágenes de Moda
 
 ## Descripción General
-Este proyecto desarrolla un motor de búsqueda de imágenes de moda utilizando aprendizaje profundo para analizar y recuperar artículos de moda similares de un amplio conjunto de datos. El proyecto utiliza una red neuronal convolucional (CNN) basada en la arquitectura VGG16 para extraer características de las imágenes y realiza comparaciones de similitud utilizando la distancia coseno.
+Este proyecto desarrolla un motor de búsqueda de imágenes de moda completamente implementado en un Jupyter Notebook, utilizando aprendizaje profundo para analizar y recuperar artículos de moda similares de un amplio conjunto de datos. Utiliza una red neuronal convolucional (CNN) basada en la arquitectura VGG16 para extraer características de las imágenes y realiza comparaciones de similitud utilizando la distancia coseno.
 
 ## Características
 - **Extracción de Características de Imágenes:** Utiliza VGG16 para extraer características relevantes de imágenes de productos de moda.
 - **Búsqueda de Similitudes:** Implementa la similitud del coseno para encontrar los artículos más similares basados en el contenido de la imagen.
-- **Búsqueda Eficiente:** Las características y los modelos se precalculan y guardan para mejorar la eficiencia de la búsqueda y el tiempo de respuesta.
-- **Verificación Visual:** Integración de matplotlib para la confirmación visual de la recuperación de imágenes similares.
+- **Búsqueda Eficiente:** Las características y los modelos se precalculan y guardan dentro del Notebook para mejorar la eficiencia de la búsqueda y el tiempo de respuesta.
+- **Verificación Visual:** Integración de matplotlib dentro del Notebook para la confirmación visual de la recuperación de imágenes similares.
 
 ## Conjunto de Datos
 El conjunto de datos incluye imágenes de productos de alta resolución tomadas profesionalmente, cada una identificada por un ID único. Los metadatos de cada producto están disponibles en `styles.csv`, con imágenes almacenadas como `images/{product_id}.jpg`.
@@ -16,6 +16,7 @@ El conjunto de datos incluye imágenes de productos de alta resolución tomadas 
 - **Contenido:** Imágenes de productos de alta resolución con metadatos asociados que describen las características del producto.
 
 ## Prerrequisitos
+- Jupyter Notebook
 - Python 3.8+
 - TensorFlow 2.x
 - NumPy
@@ -27,30 +28,22 @@ El conjunto de datos incluye imágenes de productos de alta resolución tomadas 
 ## Configuración e Instalación
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/LargoLujan/fashion_image_search_engine
+   git clone https://github.com/LargoLujan/fashion_image_search_engine.git
    ```
 2. Instala las dependencias:
    ```bash
    pip install -r requirements.txt
    ```
+3. Abre el Jupyter Notebook:
+   ```bash
+   jupyter notebook image_recognition.ipynb
+   ```
 
 ## Uso
-Para empezar a usar el motor de búsqueda de imágenes de moda, sigue estos pasos:
-1. Carga el conjunto de datos y preprocesa las imágenes.
-2. Ejecuta la extracción de características:
-   ```python
-   python extraccion_caracteristicas.py
-   ```
-3. Realiza una búsqueda de imágenes ejecutando:
-   ```python
-   python buscar.py --ruta_imagen 'ruta/a/imagen.jpg'
-   ```
+Dentro del Jupyter Notebook, sigue las celdas paso a paso para cargar el conjunto de datos, preprocesar las imágenes, extraer características y realizar búsquedas de imágenes similares.
 
-## Ejemplo
-Para encontrar artículos de moda similares a una imagen de producto dada:
-```bash
-python buscar.py --ruta_imagen 'fashion-dataset/images/42431.jpg'
-```
+## Ejemplo de Uso
+Para encontrar artículos de moda similares a una imagen de producto dada, sigue las instrucciones dentro del notebook para cargar la imagen y ejecutar la celda de búsqueda.
 
 ## Contribuciones
 ¡Las contribuciones a este proyecto son bienvenidas! Por favor, consulta las pautas de contribución para más detalles.
