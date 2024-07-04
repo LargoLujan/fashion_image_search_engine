@@ -17,7 +17,7 @@ Debido al gran tamaño del conjunto de datos (25GB), no está incluido en el rep
 2. Extrae el archivo descargado en la carpeta `data` en la raíz de este proyecto. Si la carpeta no existe, créala.
    ```bash
    mkdir -p data
-   unzip fashion-product-images-large.zip -d data
+   unzip archive.zip -d data
 
 ## Prerrequisitos
 - Jupyter Notebook
