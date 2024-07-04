@@ -65,7 +65,3 @@ Este proyecto está licenciado bajo la Licencia MIT - ver el archivo [LICENSE.md
 
 ## Agradecimientos
 Gracias a Param Aggarwal por proporcionar el conjunto de datos e inspirar el desarrollo de este proyecto.
-
-```
-
-Este README proporciona una descripción clara del proyecto en español, cómo configurar y usar el sistema, y cómo otros pueden contribuir o contactarte. Asegúrate de adaptar cualquier parte según sea necesario para que se ajuste mejor a tu proyecto real y a sus dependencias específicas.
