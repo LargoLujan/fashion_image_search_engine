@@ -27,7 +27,7 @@ El conjunto de datos incluye imágenes de productos de alta resolución tomadas 
 ## Configuración e Instalación
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tuusuario/motor-busqueda-imagenes-moda.git
+   git clone https://github.com/LargoLujan/fashion_image_search_engine
    ```
 2. Instala las dependencias:
    ```bash
